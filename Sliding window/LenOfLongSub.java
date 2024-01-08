@@ -1,11 +1,10 @@
 
-
 public class LenOfLongSub {
     public static void main(String[] args) {
         String str = new String("1101100111");
         int curr = 0;
         int l = 0;
-        int ans = 0, k = 100;
+        int ans = 0;
         for (int r = 0; r < str.length(); r++) {
             if (str.charAt(r) == '0') {
                 curr++;
